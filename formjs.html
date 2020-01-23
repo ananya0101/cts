@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script>
+        function validate()
+        {
+            if(form1.fname.value=="" )
+            alert("Firstname cannot be empty");
+            return false;
+        }
+        
+        </script>
+
+</head>
+
+<body>
+    
+    
+        <h2>Welcome</h2>
+        <hr>
+        <form name="form1" >
+            Firstname:<input type="text" name="fname" ><br><br>
+            Lastname:<input type="text" name="lname"><br><br>
+            <input type="submit"  value= "Submit" onclick="validate()"><br>
+        </form>
+    
+
+    
+</body>
+</html>
