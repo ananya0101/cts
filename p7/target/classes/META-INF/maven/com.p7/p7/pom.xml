@@ -1,18 +1,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.v</groupId>
-  <artifactId>p1</artifactId>
-  <packaging>war</packaging>
+
+  <groupId>com.p7</groupId>
+  <artifactId>p7</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>p1 Maven Webapp</name>
+  <packaging>jar</packaging>
+
+  <name>p7</name>
   <url>http://maven.apache.org</url>
-  <properties>
-	<spring.version>4.0.1.RELEASE</spring.version>
-</properties>
+<properties>
+		<spring.version>4.0.1.RELEASE</spring.version>
+  </properties>
+ 
+
   <dependencies>
-  
-  
   <dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -36,9 +38,5 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    
   </dependencies>
-  <build>
-    <finalName>p1</finalName>
-  </build>
 </project>
