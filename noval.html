@@ -1,0 +1,24 @@
+<head>
+<script>
+function checkForm(form) 
+{
+var n = form.phone.value;
+if (isNaN(n))
+{
+alert("Please enter Number only");
+return false;
+}
+else
+{
+return true;
+}
+}
+</script>
+</head>
+<body>
+<form name="form1" onsubmit="return checkForm(this)">
+Name :<input type="text" name="name"/><br><br>
+Phone :<input type="text" name="phone"/><br><br>
+<input type="submit"/>
+</form>
+</body>
