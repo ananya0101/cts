@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+  	<bean id="been_message" class="com.p1.p1.SetterInjection">
+    <property name="message" value="Spring is simple(Setter Injection)." /></bean>
+    
+    <bean id="springMessage" class="com.p1.p1.ConstructorInjection">
+   <constructor-arg type="java.lang.String" value="Ananya" />
+   <constructor-arg type="int" value="0101" />
+  </bean>
+</beans>
